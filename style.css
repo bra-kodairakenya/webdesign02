@@ -126,7 +126,7 @@ body {
 }
 
 .layout-inner {
-  width: 95%;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
