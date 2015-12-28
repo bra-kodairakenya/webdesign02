@@ -28,3 +28,10 @@
   font-size: 1.1rem;
   width: calc(100% / 5);
 }
+
+.nav-menu a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
