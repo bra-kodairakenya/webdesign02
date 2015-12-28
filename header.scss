@@ -1,0 +1,30 @@
+#header {
+  background-color: #FFF;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.22);
+  height: 93px;
+  position: relative;
+  top: 37px;
+}
+
+.header-logo {
+  display: block;
+  width: 163px;
+  height: 62px;
+  position: absolute;
+  top: calc(55px - 37px);
+  left: calc(215px - 180px);
+}
+
+.nav {
+  position: absolute;
+  top: calc(78px - 37px);
+  left: calc(960px - 180px);
+  width: 426px;
+  font-size: 0;
+}
+
+.nav-menu {
+  display: inline-block;
+  font-size: 1.1rem;
+  width: calc(100% / 5);
+}
