@@ -22,12 +22,13 @@
   position: absolute;
   top: 78px - 37px;
   left: 960px - 180px;
+  display: table;
   width: 426px;
   font-size: 0;
 }
 
 .nav-menu {
-  display: inline-block;
+  display: table-cell;
   width: calc(100% / 5);
   font-family: OpenSans;
   color: #282528;

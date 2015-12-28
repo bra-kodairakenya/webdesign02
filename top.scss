@@ -54,6 +54,9 @@
   display: inline-block;
   a {
     display: block;
+    :hover {
+      opacity: 0.6;
+    }
   }
   &:first-child {
     padding-right: 452px - (215px + 220px);

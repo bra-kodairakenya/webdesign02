@@ -158,12 +158,13 @@ body {
   position: absolute;
   top: 41px;
   left: 780px;
+  display: table;
   width: 426px;
   font-size: 0;
 }
 
 .nav-menu {
-  display: inline-block;
+  display: table-cell;
   width: calc(100% / 5);
   font-family: OpenSans;
   color: #282528;
@@ -233,6 +234,9 @@ body {
 }
 .button-list a {
   display: block;
+}
+.button-list a :hover {
+  opacity: 0.6;
 }
 .button-list:first-child {
   padding-right: 17px;
