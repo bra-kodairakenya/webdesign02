@@ -22,7 +22,6 @@ time, mark, audio, video {
     padding:0;
     border:0;
     outline:0;
-    font-size:100%;
     vertical-align:baseline;
     background:transparent;
 }
@@ -36,7 +35,7 @@ footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
-nav ul {
+ul {
     list-style:none;
 }
 
@@ -53,7 +52,6 @@ q:before, q:after {
 a {
     margin:0;
     padding:0;
-    font-size:100%;
     vertical-align:baseline;
     background:transparent;
 }
@@ -68,7 +66,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -91,7 +89,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;

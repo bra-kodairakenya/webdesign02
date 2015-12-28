@@ -21,7 +21,6 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 100%;
   vertical-align: baseline;
   background: transparent;
 }
@@ -35,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-nav ul {
+ul {
   list-style: none;
 }
 
@@ -52,7 +51,6 @@ q:before, q:after {
 a {
   margin: 0;
   padding: 0;
-  font-size: 100%;
   vertical-align: baseline;
   background: transparent;
 }
@@ -106,6 +104,7 @@ html {
 
 body {
   font-size: 1.0rem;
+  line-height: 1;
 }
 
 .layout01 {
@@ -135,12 +134,15 @@ body {
   height: 900px;
 }
 
+.layout-header-inner {
+  position: relative;
+  top: 37px;
+}
+
 #header {
   background-color: #FFF;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.22);
   height: 93px;
-  position: relative;
-  top: 37px;
 }
 
 .header-logo {
@@ -148,22 +150,26 @@ body {
   width: 163px;
   height: 62px;
   position: absolute;
-  top: calc(55px - 37px);
-  left: calc(215px - 180px);
+  top: 18px;
+  left: 35px;
 }
 
 .nav {
   position: absolute;
-  top: calc(78px - 37px);
-  left: calc(960px - 180px);
+  top: 41px;
+  left: 780px;
   width: 426px;
   font-size: 0;
 }
 
 .nav-menu {
   display: inline-block;
-  font-size: 1.1rem;
   width: calc(100% / 5);
+  font-family: OpenSans;
+  color: #282528;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: left;
 }
 
 .nav-menu a {
@@ -171,4 +177,68 @@ body {
 }
 .nav-menu a:hover {
   text-decoration: underline;
+}
+
+.font, .introducing-title, .introducing-supplement, .supplement-list {
+  font-family: OpenSans;
+  color: #282528;
+  text-align: left;
+}
+
+.top {
+  position: relative;
+  top: 128px;
+}
+
+.introducing-text {
+  position: absolute;
+  top: 87px;
+  left: 35px;
+}
+
+.introducing-title {
+  font-size: 4.2rem;
+  font-weight: 400;
+}
+.introducing-title span {
+  font-weight: 700;
+}
+
+.introducing-supplement {
+  padding-top: 13px;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.supplement-detail {
+  padding-top: 36px;
+}
+
+.supplement-list {
+  padding-bottom: 22px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.supplement-list span {
+  padding-right: 15px;
+  font-size: 1.2rem;
+}
+
+.introducing-button {
+  padding-top: 66px;
+}
+
+.button-list {
+  display: inline-block;
+}
+.button-list a {
+  display: block;
+}
+.button-list:first-child {
+  padding-right: 17px;
+}
+
+.introducing-img {
+  position: absolute;
+  right: 0;
 }

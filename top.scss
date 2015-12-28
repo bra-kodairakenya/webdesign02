@@ -1,0 +1,66 @@
+.font {
+  font-family: OpenSans;
+  color:  #282528;
+  text-align: left;
+}
+
+.top {
+  position: relative;
+  top: 258px - (93px + 37px);
+}
+
+.introducing-text {
+  position: absolute;
+  top: 345px - 258px;
+  left: 215px - 180px;
+}
+
+.introducing-title {
+  @extend .font;
+  font-size: 4.2rem;
+  font-weight: 400;
+  span {
+    font-weight: 700;
+  }
+}
+
+.introducing-supplement {
+  padding-top: 400px - (345px + 42px);
+  @extend .font;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.supplement-detail {
+  padding-top: 459px - (400px + 23px);
+}
+
+.supplement-list {
+  padding-bottom: 496px - (462px + 12px);
+  @extend .font;
+  font-size: 1.6rem;
+  font-weight: 400;
+  span {
+    padding-right: 237px - (215px + 7px);
+    font-size: 1.2rem;
+  }
+}
+
+.introducing-button {
+  padding-top: 614px - (459px + 89px);
+}
+
+.button-list {
+  display: inline-block;
+  a {
+    display: block;
+  }
+  &:first-child {
+    padding-right: 452px - (215px + 220px);
+  }
+}
+
+.introducing-img {
+  position: absolute;
+  right: 0;
+}
