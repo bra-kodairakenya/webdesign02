@@ -126,7 +126,7 @@ body {
 }
 
 .layout-inner {
-  width: 1240px;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -149,15 +149,14 @@ body {
   display: block;
   width: 163px;
   height: 62px;
-  position: absolute;
-  top: 18px;
-  left: 35px;
+  float: left;
+  padding-top: 18px;
+  padding-left: 35px;
 }
 
 .nav {
-  position: absolute;
-  top: 41px;
-  left: 780px;
+  float: right;
+  padding-top: 41px;
   display: table;
   width: 426px;
   font-size: 0;
@@ -165,7 +164,6 @@ body {
 
 .nav-menu {
   display: table-cell;
-  width: calc(100% / 5);
   font-family: OpenSans;
   color: #282528;
   font-size: 1.3rem;
@@ -192,9 +190,9 @@ body {
 }
 
 .introducing-text {
-  position: absolute;
-  top: 87px;
-  left: 35px;
+  float: left;
+  padding-top: 87px;
+  padding-left: 35px;
 }
 
 .introducing-title {
@@ -243,6 +241,5 @@ body {
 }
 
 .introducing-img {
-  position: absolute;
-  right: 0;
+  float: right;
 }

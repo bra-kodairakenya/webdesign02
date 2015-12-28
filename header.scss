@@ -13,15 +13,14 @@
   display: block;
   width: 163px;
   height: 62px;
-  position: absolute;
-  top: 55px - 37px;
-  left: 215px - 180px;
+  float: left;
+  padding-top: 55px - 37px;
+  padding-left: 215px - 180px;
 }
 
 .nav {
-  position: absolute;
-  top: 78px - 37px;
-  left: 960px - 180px;
+  float: right;
+  padding-top: 78px - 37px;
   display: table;
   width: 426px;
   font-size: 0;
@@ -29,7 +28,6 @@
 
 .nav-menu {
   display: table-cell;
-  width: calc(100% / 5);
   font-family: OpenSans;
   color: #282528;
   font-size: 1.3rem;

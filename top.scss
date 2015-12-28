@@ -10,9 +10,9 @@
 }
 
 .introducing-text {
-  position: absolute;
-  top: 345px - 258px;
-  left: 215px - 180px;
+  float: left;
+  padding-top: 345px - 258px;
+  padding-left: 215px - 180px;
 }
 
 .introducing-title {
@@ -64,6 +64,5 @@
 }
 
 .introducing-img {
-  position: absolute;
-  right: 0;
+  float: right;
 }
